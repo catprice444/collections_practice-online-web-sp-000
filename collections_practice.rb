@@ -50,6 +50,8 @@ end
    array.each_with_index do |word, index|
      if index != 1
        return word = word + "s"
+     else
+       return word
      end
      new_array << word
    end
