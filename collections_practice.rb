@@ -25,10 +25,16 @@ def reverse_array(array)
   array.reverse
 end
 
+# def kesha_maker(array)
+#   # dollar_sign = []
+#   dollar_sign.each do |dollar|
+#     dollar_sign << dollar[2] == "$"
+#   end
+#   # dollar_sign
+# end
+
 def kesha_maker(array)
-  dollar_sign = []
-  dollar_sign.each do |dollar|
-    dollar_sign << dollar[2] == "$"
+  array.each do |item|
+    item[2] = "$"
   end
-  dollar_sign
 end
