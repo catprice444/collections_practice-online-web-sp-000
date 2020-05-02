@@ -50,7 +50,7 @@ end
      if array[1] == word
        return word
      else
-       word
+       word + "s"
      end
    end
  end
